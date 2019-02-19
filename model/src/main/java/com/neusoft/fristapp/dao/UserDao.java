@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 public class UserDao {
 
     /**
-     * 根据用户ID查询用户名字
+     * 根据用户ID查询用户名字 haol
      * @param userId
      * @return
      */
