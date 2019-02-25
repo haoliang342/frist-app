@@ -6,7 +6,8 @@
 		<module>model</module>
 		<module>service</module>
         <module>web</module>
-    </modules>
+		<module>testdemo</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -17,7 +18,7 @@
 
 	<!--
 	 	调整主工程类型 packaing类型改为pom
-	 	分成三个模块进行开发
+	 	分成三个模块进行开发 .
 	 	模型层: model
 	 	持久层: service
 	 	表示层: web
