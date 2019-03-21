@@ -11,4 +11,22 @@
 
     <artifactId>model</artifactId>
 
+    <build>
+        <!-- 将目录src/main/java 文件夹下的 .properties 和 .xml文件
+             复制到src/main/resources 文件夹下。 主要是mybatis中的mapper.xml文件
+        -->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
 </project>
