@@ -2,6 +2,8 @@ package com.neusoft.fristapp.mapper;
 
 import com.neusoft.fristapp.domain.Demo;
 
+import java.util.List;
+
 /**
  * Title: title
  * Description: [描述]
@@ -13,5 +15,7 @@ import com.neusoft.fristapp.domain.Demo;
 public interface DemoMapper {
 
      Demo queryDemo(int id);
+
+     List<Demo> queryDemoList(String name);
 
 }
